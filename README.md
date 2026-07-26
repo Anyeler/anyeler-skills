@@ -1,6 +1,6 @@
 # anyeler-skills
 
-A collection of [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills) that enhance Copilot's capabilities for specialised tasks.
+A collection of [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills) that enhance Copilot's capabilities for specialized tasks.
 
 ## Skills
 
@@ -34,5 +34,5 @@ Each `SKILL.md` file must include:
 
 - No secrets, credentials, or API tokens are embedded in any skill file or script.
 - Scripts included in a skill directory are reviewed before being referenced in `SKILL.md`.
-- The `allowed-tools` field is omitted unless the tool list has been explicitly reviewed; the `shell`/`bash` tools are never pre-approved without explicit justification.
+- The `allowed-tools` frontmatter field (an optional `SKILL.md` field that pre-approves tool use without confirmation) is omitted unless the tool list has been explicitly reviewed; the `shell`/`bash` tools are never pre-approved without explicit justification.
 - Skills are scoped to their own directory and do not reference files outside their folder.
