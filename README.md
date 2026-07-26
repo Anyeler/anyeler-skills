@@ -22,7 +22,7 @@ gh skill install Anyeler/anyeler-skills github-actions-debug
 
 ## Specification compliance
 
-All skills in this repository must pass the [Agent Skills specification](https://agentskills.io/specification). A GitHub Actions workflow validates every pull request automatically using `gh skill publish --dry-run`.
+All skills in this repository must pass the [Agent Skills specification](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills). A GitHub Actions workflow validates every pull request automatically using `gh skill publish --dry-run`.
 
 Each `SKILL.md` file must include:
 
